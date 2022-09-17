@@ -975,26 +975,4 @@ GOALS
 	Fast finding of information requested
 
 
-Bibliography
-
-Core Java™ 2 Volume I – Fundamentals 7th Edition	Cay S. Hortsman
-Pearson Education – Sun Microsystems	Gary Cornell
-	
-Core Java™ 2 Volume II – Advanced 	Cay S. Hortsman
-Pearson Education – Sun Microsystems	Gary Cornell
-	
-Head First Servlets & JSP	Eric Freeman
-O’Reilly – SPD	Elisabeth Freeman
-	
-The Book of JavaScript 2nd Edition	thau
-SPD	
-	
-Effective Java – Programming Language Guide	Joshua Bloch
-Pearson Education – Sun Microsystems	
-	
-Java Database Best Practices	George Reese
-O’Reilly – SPD	
-	
-JBoss – A Developers Notebook	Norman Richards
-O’Reilly – SPD	Sam Griffith
 
