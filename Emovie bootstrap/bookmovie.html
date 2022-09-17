@@ -1,0 +1,110 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Emovie Ticket</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bgimg">
+	<div>
+		<nav class="navbar navbar-default navbar-expand-md bg-dark navbar-dark fixed-top">
+			<div class="container">
+				<a href="index.html" class="navbar-brand text-warning font-weight-bold ">E-movie Tickets</a>
+				 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+				 	<span class="navbar-toggler-icon"></span>
+				 </button>
+
+				 <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+				 	<ul class="navbar-nav ml-auto ">
+				 		<li>
+				 			<a href="admin.html">HOME</a>
+				 		</li>
+				 		<li>
+				 			<a href="pagenotfound.html">ADD MOVIE</a>
+				 		</li>
+				 		<li>
+				 			<a href="pagenotfound.html">ADD NEWS</a>
+				 		</li>
+				 		<li>
+				 			<a href="pagenotfound">ADD AGENT</a>
+				 		</li>
+				 		<li>
+				 			<a href="pagenotfound.html">EDIT PROFILE</a>
+				 		</li>
+				 		<li>
+				 			<a href="logout.html">LOGOUT</a>
+				 		</li>
+				 	</ul>
+				 </div>
+			</div>
+		</nav>
+
+	</div>
+<!-- body-->
+	<div id="adminbody">
+			
+			<div class="row">
+
+				<div class="col-lg-12 col-md-12 picdetails">
+					<center>
+					<h1>Add Movie Details</h1>
+					<font size="5">
+					<table style="color: white; height: 300px; width: 50%; border: 3px solid white;">
+						<tr>
+							<td><h3>Movie Name</h3></td>
+							<td><input type="text" name="moviename"></td>
+						</tr>
+						<tr>
+							<td><h3>Release Date</h3></td>
+							<td><input type="text" name="releasedate"></td>
+						</tr>
+						<tr>
+							<td><h3>Theater Name</h3></td>
+							<td><input type="text" name="theater"></td>
+						</tr>
+						<tr>
+							<td><h3>Add Movie Photo</h3></td>
+							<td><input type="file" name="upfile" id='fileup'></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="submit" value="Submit" onclick="getFilePath"></td>
+						</tr>
+					</table>
+					</font>
+					</center>
+				</div>
+			</div>
+	</div>
+<!-- Footer-->
+<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 footer-contact">
+					<h4>Follow Us</h4>
+					<div class="sociallinks">
+						<a href="" class="twitter"><i class="fa fa-twitter fa-3x"> </i> </a>
+						<a href="" class="facebook"><i class="fa fa-facebook fa-3x"> </i> </a>
+						<a href="" class="instagram"><i class="fa fa-instagram fa-3x"> </i> </a>
+						<a href="" class="google-plus"><i class="fa fa-google-plus fa-3x"> </i> </a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 footer-newsletter">
+					<h4>Give Your Feedback</h4>
+						<form action="" method="post">
+							<textarea rows="4" cols="50" name="comment"></textarea>
+							<input type="email" name="email" placeholder="example@mail.com" ><input class="button" type="submit" value="Submit">
+						</form>
+				</div>
+			</div>
+		</div>
+	<center><p class="copyright text-muted">Copyright &copy;Website Name 2019</p></center>
+</footer>
+</body>
+</html>
